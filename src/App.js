@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { useState } from 'react';
 
@@ -11,7 +11,7 @@ function App() {
   setInterval(() => tick(), 1000)
 
   return (
-    <div className="App">
+    <div className="App py-5 text-black">
       <h1>Realtime CLOCK</h1>
       <hr/>
       <h1>{date.toLocaleTimeString()}</h1>
